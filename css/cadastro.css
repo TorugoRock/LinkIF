@@ -6,13 +6,17 @@ body {
 header{
 margin: 0 auto;
 width: 64%;
+text-align: center;
 }
 
+
 form {
-margin: auto auto 100%  auto  ;
-width: 50%;
-height: 100%;
+margin: auto;
+width: 40%;
+font-size: 175%;
+line-height: 200%;
 border: 3px ridge gray;
 background: white;
 padding: 15px;
+
 }
