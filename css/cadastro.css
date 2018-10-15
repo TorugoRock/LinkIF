@@ -9,10 +9,10 @@ width: 64%;
 }
 
 form {
-margin: 0 auto;
+margin: auto auto 100%  auto  ;
 width: 50%;
 height: 100%;
 border: 3px ridge gray;
 background: white;
-text-align: center;
+padding: 15px;
 }
