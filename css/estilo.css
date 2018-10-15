@@ -1,0 +1,35 @@
+body {
+
+		background-color:  #90EE90;
+}
+.principal {
+	width: 70%;
+	margin: 0 auto;
+	background-color: #fff;
+	text-align: justify;
+	font-family: 'Mali', cursive;
+}
+
+header{
+	margin: 0 auto;
+  width: 64%;
+}
+#sobre h1{
+	text-align: center;
+}
+
+#login{
+	text-align: center;
+	border: 3px solid;
+	width: 45%;
+
+}
+#sobre{
+	padding: 20px;
+	
+}
+.coluna {
+
+  float: left; width: 50%;
+
+}
