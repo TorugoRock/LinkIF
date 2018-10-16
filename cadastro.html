@@ -2,35 +2,35 @@
 <html lang="en">
 <head>
         <meta charset="UTF-8">
-        
-        <link rel="stylesheet" href="css/cadastro.css">
 
+        <link rel="stylesheet" href="css/cadastro.css">
+      	<script src="script/script.js"></script>
     <title>Cadastro LinkIF</title>
 </head>
 <body>
     <header>
-        <a href=><img src="imagens/cabecalho.png" alt="cabecalho LINK IF"> </a>
+        <a href="index.html"><img src="imagens/cabecalho.png" alt="cabecalho LINK IF"> </a>
             <div>
                     <h1>Venha fazer parte da nossa plataforma</h2>
                     <h2>Coloque seus dados para que possamos trabalhar juntos</h3>
-                    
+
             </div>
-            
+
     </header>
     <form >
 
         Nome: <input type="text" name="fname"><br>
         Email: <input type="text" name="lname"><br>
         <input type="radio" name="gender" value="1ano"> 1º ano
-        <input type="radio" name="gender" value="2ano"> 2º ano 
+        <input type="radio" name="gender" value="2ano"> 2º ano
         <input type="radio" name="gender" value="3ano"> 3º ano <br>
-        Senha: <input type="text" name="senha"><br>
-        Confirmar Senha: <input type="text" name="confsenha"><br>
-            
-        
-	<input type="submit" value="Confirmar">
-    
+        Senha: <input type="password" name="senha"><br>
+        Confirmar Senha: <input type="password" name="confsenha"><br>
+
+
+	<input type="submit" value="Confirmar" onclick="Alerta()" >
+
     </form>
-    
+
 </body>
 </html>
