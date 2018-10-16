@@ -5,9 +5,14 @@ body {
 .principal {
 	width: 70%;
 	margin: 0 auto;
-	background-color: #fff;
-	text-align: justify;
 	font-family: 'Mali', cursive;
+
+	}
+main{
+	display: flex;
+	flex-direction: row;
+
+
 }
 
 header{
@@ -17,14 +22,18 @@ header{
 }
 #sobre h1{
 	text-align: center;
-}
 
+}
+#sobre{
+
+	width: 50%;
+}
 #login{
 	text-align: center;
 	border: 3px solid;
 	width: 45%;
 	background-color: white;
-
+  height: 60%;
 }
 #sobre{
 	padding: 20px;
@@ -32,6 +41,5 @@ header{
 }
 .coluna {
 
-  float: left; width: 50%;
-
+  
 }
