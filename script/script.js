@@ -1,3 +1,3 @@
 function Alerta() {
-    alert("Em breve estarei funcionando! :)");
+    alert("Em breve estarei funcionando! Obrigado pela colaboração :)");
 }
