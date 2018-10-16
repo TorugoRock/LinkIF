@@ -12,7 +12,8 @@ body {
 
 header{
 	margin: 0 auto;
-  width: 64%;
+	width: 64%;
+	text-align: center;
 }
 #sobre h1{
 	text-align: center;
